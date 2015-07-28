@@ -1,0 +1,189 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+
+
+
+
+#menu-bar {
+	/*position: absolute;
+	top: 0;
+	bottom: 0;*/
+	width: 20%;
+	background-color: #2a2a2a;
+	height: 100%;
+	overflow: auto;
+	float: left;
+	z-index: 20;
+	position: fixed;
+	left: 0;
+	/*min-height: 600px;-----daca nu am min-height, imi apare tot meniul dar scorllabale*/
+}
+
+
+
+
+.top-header {
+	text-align: center;
+	padding-top: 20%;
+}
+
+	.top-header__h1,
+	.top-header__h5 {
+		/*color: #0099cc;*/
+		color: #fff;
+	}
+
+	.top-header__h1 {
+		margin-bottom: 0;
+	}
+
+	.top-header__h5 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+
+
+
+/********************************************
+---------------- HAMBURGER ICON -------------
+********************************************/
+.hamburger {
+	display: none;
+	position: absolute;
+	top: 12px;
+	left: 212px;
+	z-index: 10000;
+	padding: 6px;
+}
+	
+	.hamburger__line {
+		border-bottom: 4px solid #fff;
+		width: 30px;
+		margin-bottom: 4px;
+	}
+
+	.hamburger__line--last {
+		margin-bottom: 0;
+	}
+
+
+
+
+/********************************************
+---------------- NAVIGATION--- -------------
+********************************************/
+.nav-bar {
+	width: 60%;
+	padding: 0;
+	margin: 40% auto 0 auto;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+	.nav-bar__link {
+		text-decoration: none;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		outline: none;
+	}
+
+	.nav-bar__link:hover,
+	.nav-bar__link:active,
+	.nav-bar__link:visited,
+	.nav-bar__link:focus {
+		outline: 0;
+	}
+
+	.nav-bar__list {
+		padding: 3%;
+	}
+
+	.nav-bar__list--first {
+		padding-top: 30px;
+	}
+
+	.nav-bar__list--last {
+		padding-bottom: 30px;
+	}
+
+
+
+
+
+/********************************************
+---------------- DROP-DOWN---- -------------
+********************************************/
+.drop-down__menu {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px 0;
+	list-style: none;
+	display: none;
+	height: 100px;
+}
+
+	.drop-down__link {
+		text-decoration: none;
+		color: #fff;
+		font-size: 0.8em;
+		text-transform: uppercase;
+	}
+
+	.drop-down__list {
+		padding: 2px 0;
+	}
+
+
+
+
+
+/********************************************
+---------------- FOOTER-------- -------------
+********************************************/
+.footer-wrapp {
+	position: absolute;
+	bottom: 23px;
+	left: 35px;
+	padding: 0;
+	margin: 0;
+	width: 100px;
+}
+
+.footer-content {
+	padding-bottom: 5%;
+
+}
+
+	/*.social__icon {
+		width: 30px;
+		height: 30px;
+		/*border: 1px solid #2a2a2a;*/
+	   /* color: #ddd7d7;
+		margin-left: 15%;
+	}*/
+
+	.contact {
+		margin-top: 5%;
+	}
+
+	.contact__info {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		/*display: inline;*/
+		color: #fff;
+		font-size: 0.7em;
+	}
+
+
+
+
+
